@@ -558,7 +558,7 @@ def pantalla1_Mapa(dataMain):
                     unsafe_allow_html=True)
         tipo = checkTipo(dataMain)
         st.markdown(
-            "<p style='color: white;font-weight:bold;font-size:18px;text-shadow:2px 2px black;'>'PRECIO:</p>",
+            "<p style='color: white;font-weight:bold;font-size:18px;text-shadow:2px 2px black;'>PRECIO:</p>",
             unsafe_allow_html=True)
         precioMin = selectorPrecioMin(dataMain)
         precioMax = selectorPrecioMax(dataMain)
